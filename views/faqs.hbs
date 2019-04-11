@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>{{title}}</title>
     <style>
         
@@ -15,8 +21,28 @@
             color: #fff;
             text-align: center;
             margin: 15px 0 30px;
+
             padding: 5px 0;
         }
+
+
+        .btn-primary{
+            background: #fff;
+            color: #11144C;
+            text-align: center;
+            margin: 15px 0 30px;
+            padding: 5px 0;
+            border: 2px solid #11144C;
+            border-radius: 50px;
+            font-size: 18px;
+        }
+        .container button.btn-primary:hover {
+            background: #fff;
+            color: #11144C;
+            border: 2px solid #11144C;
+            
+        }
+
 
     </style>
 </head>
@@ -29,14 +55,65 @@
         <h1>FAQS</h1>
         {{!-- WRITE ALL YOUR FAQS CODE WITHIN --}}
         
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. A consequatur quas voluptates officia labore eaque quod
-        ipsa atque amet, quisquam voluptatum voluptatibus alias! Quo eius modi debitis! Sequi, magni voluptates?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro veritatis iste harum ipsam asperiores velit praesentium vero quidem. Rem, eos voluptatum. Sunt dicta possimus sed fuga quasi quis id eligendi.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla molestias eaque repudiandae et! Beatae, consequuntur. Fuga esse voluptas iusto distinctio. Officia minima ea in distinctio quo! Id porro debitis rerum?
+        <div class="container mt-3">
+  <button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#demo">Why use DevAlert?</button>
+  <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+
+<div class="container mt-3">
+  <button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#demo">How do i apply?</button>
+  <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+
+<div class="container mt-3">
+  <button type="button" class="btn btn-primary btn-block btn-block" data-toggle="collapse" data-target="#demo">Why can't i register?</button>
+  <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+
+<div class="container mt-3">
+  <button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#demo">How can i get an agent?</button>
+  <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+
+<div class="container mt-3">
+  <button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#demo">How can i stop my subscription?</button>
+  <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+
+<div class="container mt-3">
+  <button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#demo">Why is paystack not working?</button>
+  <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
 
         {{!-- WRITE ALL YOUR FAQS CODE WITHIN --}}
 
-    </div>>
+ 
+
+    </div>
 
     {{> footer}}
 </body>
